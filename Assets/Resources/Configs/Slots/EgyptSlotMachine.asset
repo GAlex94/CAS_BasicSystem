@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0bf235b36fab546becea1b56f27bf3, type: 3}
+  m_Name: EgyptSlotMachine
+  m_EditorClassIdentifier: 
+  sceneName: slot_universal
+  loadingBack: {fileID: 21300000, guid: 0f8a8fce1fec84c44b4236ed6c7dae9a, type: 3}
+  loadingTextTag: THIS IS EGYPT
+  spinChances:
+    LoseChancePercent: 17.10426
+    FalseChancePercent: 18.972275
+    LuckyChancePercent: 61.892025
+    BigWinChancePercent: 2.0314407
+  rewardLimits:
+    MinFalseReward: 40.025887
+    MaxLuckyReward: 164.61256
+    MinBigReward: 170.16888
+    MaxBigReward: 305.4065
+  symbols:
+  - tag: egypt.1
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: c2b49d21072a52f48a836dda2b70d05e, type: 3}
+    blurSprite: {fileID: 21300000, guid: 98fc0db4af189c244b6ad54fdc6dfbfb, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: egypt.2
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: baa65a367652f1d40a7bd1ab411efc30, type: 3}
+    blurSprite: {fileID: 21300000, guid: 3842907cd02ebd94fbc1cd7d508455b9, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: egypt.3
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: ea9aeb59b7dc26f46ad87ce8d024aba7, type: 3}
+    blurSprite: {fileID: 21300000, guid: 13318db0af760234ca8835b75af33b33, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: egypt.4
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: faf26ac07b5473448ae0704a14273a2b, type: 3}
+    blurSprite: {fileID: 21300000, guid: 9fdd21d839d39514ca26d6dee5bb8904, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  allSymbols:
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: c2b49d21072a52f48a836dda2b70d05e, type: 3}
+    blurSprite: {fileID: 21300000, guid: 98fc0db4af189c244b6ad54fdc6dfbfb, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: baa65a367652f1d40a7bd1ab411efc30, type: 3}
+    blurSprite: {fileID: 21300000, guid: 3842907cd02ebd94fbc1cd7d508455b9, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: ea9aeb59b7dc26f46ad87ce8d024aba7, type: 3}
+    blurSprite: {fileID: 21300000, guid: 13318db0af760234ca8835b75af33b33, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: faf26ac07b5473448ae0704a14273a2b, type: 3}
+    blurSprite: {fileID: 21300000, guid: 9fdd21d839d39514ca26d6dee5bb8904, type: 3}
+    activeSprite: {fileID: 0}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: 7a141f03146fd3d45ab639f43629226a, type: 3}
+    blurSprite: {fileID: 21300000, guid: 099d3d57f85232b40867f6ca7cab7369, type: 3}
+    activeSprite: {fileID: 21300000, guid: 793196e39c7828544acd773c70f36853, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: b8cd506d73c47934c9e773fe175a91e8, type: 3}
+    blurSprite: {fileID: 21300000, guid: 42cb6cc54e5bc0040b3cd5120165ce78, type: 3}
+    activeSprite: {fileID: 21300000, guid: f89eacd64d0ac1b4b80fcac6abdea8ef, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: fd5cb059b9685044ca72ad7de10ab22d, type: 3}
+    blurSprite: {fileID: 21300000, guid: bee0e7ddab4dbc648b37b3c03287c4b2, type: 3}
+    activeSprite: {fileID: 21300000, guid: 62dcba000f758954f855edfd7f03045c, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: b4ecb463b14298042b3e6897cffe1dd1, type: 3}
+    blurSprite: {fileID: 21300000, guid: 789092c1e0289814a99c1f8ba48a376a, type: 3}
+    activeSprite: {fileID: 21300000, guid: 7a0d0fa7fc790e14ca0f2797565878b2, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: 0e4d81017821ba546b5ae06e31faf41d, type: 3}
+    blurSprite: {fileID: 21300000, guid: 5f5a60d82115d174bb6c660ae459572f, type: 3}
+    activeSprite: {fileID: 21300000, guid: c17f64e5632e7a04993541d4654f4649, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: 7e36869555e7ff046aa2a2fbe3e908aa, type: 3}
+    blurSprite: {fileID: 21300000, guid: 93ebfd569a7c6cb43a498ea28270f7d3, type: 3}
+    activeSprite: {fileID: 21300000, guid: 3a2df7099031cf9499e6cc3020501719, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: 277a15c75b2055a44be27dfec3e31abd, type: 3}
+    blurSprite: {fileID: 21300000, guid: 249853baf748eea48889d967c8343a96, type: 3}
+    activeSprite: {fileID: 21300000, guid: 202e6aac614208348963e790d14fcb12, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  - tag: 
+    type: 0
+    defaultSprite: {fileID: 21300000, guid: e326e227735438243a5000af63188878, type: 3}
+    blurSprite: {fileID: 21300000, guid: 399ea42ba7f4ac948a3ebeea59279c2b, type: 3}
+    activeSprite: {fileID: 21300000, guid: 8cfb4f40bab084e46a909d8a27ba610b, type: 3}
+    combinations:
+    - count: 3
+      reward: 25
+      spawnProbalityPercent: 50
+    - count: 4
+      reward: 80
+      spawnProbalityPercent: 40
+    - count: 5
+      reward: 150
+      spawnProbalityPercent: 10
+  drums: 0300000003000000030000000300000003000000
+  lines:
+  - tag: line.0
+    indexOnDrum: 0100000001000000010000000100000001000000
+  - tag: line.1
+    indexOnDrum: 0000000000000000000000000000000000000000
+  - tag: line.2
+    indexOnDrum: 0200000002000000020000000200000002000000
+  - tag: line.3
+    indexOnDrum: 0000000001000000020000000100000000000000
+  - tag: line.4
+    indexOnDrum: 0200000001000000000000000100000002000000
+  - tag: line.5
+    indexOnDrum: 0100000000000000000000000000000001000000
+  - tag: line.6
+    indexOnDrum: 0100000002000000020000000200000001000000
+  - tag: line.7
+    indexOnDrum: 0000000000000000010000000200000002000000
+  - tag: line.8
+    indexOnDrum: 0200000002000000010000000000000000000000
+  - tag: line.9
+    indexOnDrum: 0100000000000000010000000200000001000000
+  - tag: line.10
+    indexOnDrum: 0100000002000000010000000000000001000000
+  - tag: line.11
+    indexOnDrum: 0000000001000000010000000100000000000000
+  - tag: line.12
+    indexOnDrum: 0200000001000000010000000100000002000000
+  - tag: line.13
+    indexOnDrum: 0000000001000000000000000100000000000000
+  - tag: line.14
+    indexOnDrum: 0200000001000000020000000100000002000000
+  - tag: line.15
+    indexOnDrum: 0100000001000000000000000100000001000000
+  - tag: line.16
+    indexOnDrum: 0100000001000000020000000100000001000000
+  - tag: line.17
+    indexOnDrum: 0000000000000000020000000000000000000000
+  - tag: line.18
+    indexOnDrum: 0200000002000000000000000200000002000000
+  - tag: line.19
+    indexOnDrum: 0000000002000000020000000200000000000000
+  lines20x:
+  - tag: line.0
+    indexOnDrum: 0100000001000000010000000100000001000000
+  - tag: line.1
+    indexOnDrum: 0000000000000000000000000000000000000000
+  - tag: line.2
+    indexOnDrum: 0200000002000000020000000200000002000000
+  - tag: line.3
+    indexOnDrum: 0000000001000000020000000100000000000000
+  - tag: line.4
+    indexOnDrum: 0200000001000000000000000100000002000000
+  - tag: line.5
+    indexOnDrum: 0100000000000000000000000000000001000000
+  - tag: line.6
+    indexOnDrum: 0100000002000000020000000200000001000000
+  - tag: line.7
+    indexOnDrum: 0000000000000000010000000200000002000000
+  - tag: line.8
+    indexOnDrum: 0200000002000000010000000000000000000000
+  - tag: line.9
+    indexOnDrum: 0100000000000000010000000200000001000000
+  - tag: line.10
+    indexOnDrum: 0100000002000000010000000000000001000000
+  - tag: line.11
+    indexOnDrum: 0000000001000000010000000100000000000000
+  - tag: line.12
+    indexOnDrum: 0200000001000000010000000100000002000000
+  - tag: line.13
+    indexOnDrum: 0000000001000000000000000100000000000000
+  - tag: line.14
+    indexOnDrum: 0200000001000000020000000100000002000000
+  - tag: line.15
+    indexOnDrum: 0100000001000000000000000100000001000000
+  - tag: line.16
+    indexOnDrum: 0100000001000000020000000100000001000000
+  - tag: line.17
+    indexOnDrum: 0000000000000000020000000000000000000000
+  - tag: line.18
+    indexOnDrum: 0200000002000000000000000200000002000000
+  - tag: line.19
+    indexOnDrum: 0000000002000000020000000200000000000000
+  lines5x: []
+  rewardThershold: 10

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d61f97bace5018e4480f48209fd0c855, type: 3}
+  m_Name: MainCasinoConfig
+  m_EditorClassIdentifier: 
+  allGames:
+  - {fileID: 11400000, guid: fcdd593cfcac8f340aae84b82e059030, type: 2}
+  - {fileID: 11400000, guid: 0db5df0cefaba26439502ea02d562c4e, type: 2}
